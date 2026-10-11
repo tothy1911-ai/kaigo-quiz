@@ -7,20 +7,22 @@
 <meta name="color-scheme" content="light dark">
 <title>介護福祉士 過去問</title>
 <style>:root {
-  --bg: #f7f7f5; --card: #ffffff; --text: #1f2328; --muted: #5f6670; --line: #d8dbe0;
+  --bg: #fdf0f3; --card: #ffffff; --text: #1f2328; --muted: #5f6670; --line: #d8dbe0;
   --accent: #2f6fb3; --accent-text: #ffffff; --ok: #1f8a4c; --ok-bg: #e6f4ec; --ng: #c0392b; --ng-bg: #fbeaea;
   --warn-bg: #fff4d6; --warn-text: #6b4e00; --radar: rgba(47, 111, 179, .35);
+  --petals: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22260%22 height=%22320%22 viewBox=%220 0 260 320%22%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.75%22 transform=%22translate(30 40) rotate(20) scale(1.0)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.6%22 transform=%22translate(170 25) rotate(-35) scale(0.8)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.7%22 transform=%22translate(110 120) rotate(70) scale(1.15)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.55%22 transform=%22translate(215 165) rotate(10) scale(0.7)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.65%22 transform=%22translate(45 200) rotate(-60) scale(0.9)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.7%22 transform=%22translate(150 255) rotate(40) scale(1.05)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.5%22 transform=%22translate(80 290) rotate(-15) scale(0.75)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23f4a7bb%22 fill-opacity=%220.6%22 transform=%22translate(235 280) rotate(95) scale(0.85)%22/%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #15171a; --card: #1f2226; --text: #e8eaed; --muted: #a0a6ad; --line: #3a3f45;
+    --bg: #241a20; --card: #1f2226; --text: #e8eaed; --muted: #a0a6ad; --line: #3a3f45;
     --accent: #6ea8e6; --accent-text: #0d1117; --ok: #5cc98a; --ok-bg: #173325; --ng: #f08a7e; --ng-bg: #3a1d1a;
     --warn-bg: #3b3115; --warn-text: #f3d98b; --radar: rgba(110, 168, 230, .35);
+    --petals: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22260%22 height=%22320%22 viewBox=%220 0 260 320%22%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.75%22 transform=%22translate(30 40) rotate(20) scale(1.0)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.6%22 transform=%22translate(170 25) rotate(-35) scale(0.8)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.7%22 transform=%22translate(110 120) rotate(70) scale(1.15)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.55%22 transform=%22translate(215 165) rotate(10) scale(0.7)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.65%22 transform=%22translate(45 200) rotate(-60) scale(0.9)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.7%22 transform=%22translate(150 255) rotate(40) scale(1.05)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.5%22 transform=%22translate(80 290) rotate(-15) scale(0.75)%22/%3E%3Cpath d=%22M0 13C-7 5-8-5-3-10L0-7L3-10C8-5 7 5 0 13Z%22 fill=%22%23b9758c%22 fill-opacity=%220.6%22 transform=%22translate(235 280) rotate(95) scale(0.85)%22/%3E%3C/svg%3E");
   }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--text);
+body { margin: 0; background-color: var(--bg); background-image: var(--petals); background-size: 260px 320px; color: var(--text);
   font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif; }
 #app { max-width: 720px; margin: 0 auto; padding: 12px 16px 48px; }
 h1 { font-size: 22px; margin: 8px 0 12px; }
